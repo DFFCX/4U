@@ -75,6 +75,13 @@ html, body {
     font-size: 200%;
     color: white;
 }
+.parrafo2{
+  font-family: Dancing Script;
+  font-style: normal;
+  text-align: left;
+  font-size: 200%;
+  color: white;
+}
 button{
   align-items: center;
   text-align: center;
@@ -87,6 +94,9 @@ button{
   padding: 4px;
   cursor: pointer;
   transition: .3s;
+  position: absolute;
+  top: 530px;
+  left: 250px;
 }
 button:hover{
   color: lightblue;
@@ -95,6 +105,8 @@ button:active{
   transform: scale(0.9);
 }
 .gif{
+    position: absolute;
+    top: 450px;
     align-items: center;
     width: 600;
     height: 900;
